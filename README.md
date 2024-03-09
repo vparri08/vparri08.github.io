@@ -6,4 +6,4 @@
 * Pagina principal (codigo base):
    
 * Pagina principal (resultado):
-<img width="473" alt="imagen" src="https://github.com/PracticasFHiC23-24/ExerciciHTML-codi-base/assets/10738769/e0b43ef7-a3ce-46a7-8f9b-d5bf575120a8">
+https://vparri08.github.io/
