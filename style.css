@@ -1,0 +1,151 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(48, 46, 43);
+}
+
+h1{
+    color: white;
+    font-size: xx-large;
+}
+
+h2{
+    color: white;
+    font-size: x-large;
+}
+
+p{
+    color: white;
+    font-size:medium;
+}
+
+li{
+    color: white;
+}
+
+a{
+    color:aqua;
+}
+
+a:hover{
+    color:bisque;
+}
+
+main{
+    display: flex;
+}
+
+header, footer{
+    display: flex;
+    background-color:rgb(81, 79, 79);
+}
+
+header{
+    align-items: center;
+    justify-content:center;
+}
+
+#listaUrls, #listaMiembros{
+    list-style: none; 
+}
+
+header> nav > #listaUrls{
+    font-size: x-large;
+    display: flex;
+    background-color:rgb(81, 79, 79);
+}
+
+#listaUrls > li {
+    margin-right: 20px;
+}
+
+#titulo, main > #miembros, main > #proyecto > h2, main > #contacto > h2,  main > #proyecto > #ajedrez{
+    text-align: center;
+}
+
+main > #contacto, main > #proyecto, main > #miembros {
+    border-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid hsl(0, 0%, 100%); 
+}
+
+main > #miembros, main > #contacto{
+    flex: 1
+}
+
+main > #proyecto{
+    flex: 2
+}
+
+nav > ul, nav > img{
+    flex: 1;
+    margin: 10px;
+    background-color: rgb(50, 50, 46);
+    padding: 10px;
+}
+
+/*miembros*/
+
+#main_miembros > div {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 100%); 
+    text-align: center;
+}
+
+#main_miembros > div img {
+    width: 150px; 
+    height: auto;
+    vertical-align: top; 
+}
+
+#main_miembros > div h2 {
+    font-size:larger
+}
+
+/* proyecto y principios de diseño*/
+
+#main_proyecto > div , #main_principios > div{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 100%); 
+    text-align: center;
+}
+
+#main_proyecto > div img, #main_principios > div img{
+    width: 150px; 
+    height: auto;
+    vertical-align: top; 
+}
+
+/* CONTACTO */
+
+#main_contacto > div {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid hsl(0, 0%, 100%); 
+}
+
+#form_opinion > form {
+    width: 700px
+}
+
+#form_opinion > form > input, #form_opinion > form > textarea, #form_opinion > form > button,  #form_opinion > form > select {
+    margin: 12px;
+    padding: 8px;
+    width: 660px;
+    font-size: 14px;
+}
+
+#form_opinion > form > label {
+    margin: 12px;
+    padding: 8px;
+    width: 660px;
+    color: white;
+    font-size: 18px;
+}

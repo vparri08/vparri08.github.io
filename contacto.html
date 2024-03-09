@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prácticas de FHiC - B6</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    
+    <header>
+        <a href="index.html" title="Página de inicio"><img src="img/logoKingChessPNG.png" width="200" height="200" alt="Logo"></a>
+        <nav>
+          <ul id = "listaUrls">
+            <li><a href="miembros.html" title="Página de Miembros">Miembros</a></li>
+            <li><a href="proyecto.html" title="Página del Proyecto">Proyecto Web</a></li>
+            <li><a href="contacto.html" title="Página de Contacto">Contacto</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <div id = "titulo">
+        <h1>¡Danos tu opinión!</h1> 
+        <h2>Nos encantaría saber qué opinas de nuestra web</h2> 
+    </div>
+
+    <main id = "main_contacto">
+        <div id = "form_opinion">
+            <form action="enviar_opinion.php" method="post">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br>
+
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+
+                <textarea id="opinion" name="opinion" placeholder="Opinion" rows="4" cols="50" required></textarea><br>
+
+                <label for="valoracion">Valoración:</label>
+                <select id="valoracion" name="valoracion" required><br>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select> <br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div id = "principios_diseño">
+            <p>Los principios de diseño que hemos aplicado al diseñar el form son: </p>
+            <ul>
+                <li>Primer principio: Coming soon...</li>
+                <li>Segundo principio: Coming soon...</li>
+                <li>Tercero principio: Coming soon...</li>
+            </ul>
+            <img src="img/loading-5.gif" alt="Gif cargando" width="200" height="200">
+        </div>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; FHiC 23-24 - KingChess</p>
+    </footer>
+
+  </body>
+</html>
