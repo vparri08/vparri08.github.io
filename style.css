@@ -38,7 +38,7 @@ a:hover{
 }
 
 header, footer{
-    background-color:rgb(81, 79, 79);
+    background-color:rgb(81, 79, 79);    
 }
 
 #titulo > h1{
@@ -89,27 +89,6 @@ nav > ul, nav > img{
     padding: 10px;
 }
 
-/*miembros*/
-
-/*#main_miembros > div {
-    flex: 1;
-    margin: 10px;
-    padding: 10px;
-    align-items: center;
-    border: 1px solid hsl(0, 0%, 100%); 
-    text-align: center;
-}
-
-#main_miembros > div img {
-    width: 150px; 
-    height: auto;
-    vertical-align: top; 
-}
-
-#main_miembros > div h2 {
-    font-size:larger
-}*/
-
 #main_miembros .container-fluid .row div {
     margin: 10px;
     align-items: center;
@@ -137,21 +116,22 @@ nav > ul, nav > img{
     border: 1px solid hsl(0, 0%, 100%); 
 }
 
+
 #form_opinion > form {
-    width: 700px
+    width: 500px    
 }
 
 #form_opinion > form > input, #form_opinion > form > textarea, #form_opinion > form > button,  #form_opinion > form > select {
     margin: 12px;
     padding: 8px;
-    width: 660px;
+    width: 500px;
     font-size: 14px;
 }
 
 #form_opinion > form > label {
     margin: 12px;
     padding: 8px;
-    width: 660px;
+    width: 500px;
     color: white;
     font-size: 18px;
 }
