@@ -73,6 +73,8 @@ header, footer{
 #contacto > h2, #proyecto > h2, #miembros > h2{
     text-align: center;
     font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #miembros > #listaMiembros > #raul, #miembros > #listaMiembros > #gleb, #miembros > #listaMiembros > #victor, #miembros > #listaMiembros > #nacho{
@@ -89,7 +91,7 @@ nav > ul, nav > img{
 
 /*miembros*/
 
-#main_miembros > div {
+/*#main_miembros > div {
     flex: 1;
     margin: 10px;
     padding: 10px;
@@ -106,6 +108,17 @@ nav > ul, nav > img{
 
 #main_miembros > div h2 {
     font-size:larger
+}*/
+
+#main_miembros .container-fluid .row div {
+    margin: 10px;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 100%); 
+    text-align: center;
+}
+
+#main_miembros .container-fluid .row div p,  #main_miembros .container-fluid .row div h2{
+    margin-top: 15px;
 }
 
 /* proyecto y principios de diseño*/
