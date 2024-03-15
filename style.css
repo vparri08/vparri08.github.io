@@ -37,54 +37,32 @@ a:hover{
     color:bisque;
 }
 
-/*main{
-    display: flex;
-}*/
-
 header, footer{
-    display: flex;
     background-color:rgb(81, 79, 79);
 }
 
-header{
-    align-items: center;
-    justify-content:center;
+#titulo > h1{
+    margin-top: 10px;
 }
 
-#listaUrls, #listaMiembros{
-    list-style: none; 
+
+#headerContainer {
+    text-align: center;
 }
 
-header> nav > #listaUrls{
-    font-size: x-large;
-    display: flex;
-    background-color:rgb(81, 79, 79);
+#logo {
+    display: block;
+    margin: 0 auto; 
 }
 
-#listaUrls > li {
-    margin-right: 20px;
+.link {
+    margin: 0 10px; 
+    font-size:x-large;
 }
 
 #titulo, main > #miembros, main > #proyecto > h2, main > #contacto > h2,  main > #proyecto > #ajedrez{
     text-align: center;
 }
-
-
-
-/*main > #contacto, main > #proyecto, main > #miembros {
-    border-color: white;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid hsl(0, 0%, 100%); 
-}
-
-main > #miembros, main > #contacto{
-    flex: 1
-}
-
-main > #proyecto{
-    flex: 2
-}*/
 
 #contacto, #proyecto, #miembros {
     border-color: white;
@@ -100,12 +78,12 @@ main > #proyecto{
 #miembros > #listaMiembros > #raul, #miembros > #listaMiembros > #gleb, #miembros > #listaMiembros > #victor, #miembros > #listaMiembros > #nacho{
     margin-bottom: 20px;
     text-align: center;
+    list-style: none;
 }
 
 nav > ul, nav > img{
     flex: 1;
     margin: 10px;
-    background-color: rgb(50, 50, 46);
     padding: 10px;
 }
 
@@ -131,20 +109,10 @@ nav > ul, nav > img{
 }
 
 /* proyecto y principios de diseño*/
-
-#main_proyecto > div , #main_principios > div{
-    flex: 1;
-    margin: 10px;
-    padding: 10px;
+#main_proyecto{
     align-items: center;
     border: 1px solid hsl(0, 0%, 100%); 
     text-align: center;
-}
-
-#main_proyecto > div img, #main_principios > div img{
-    width: 150px; 
-    height: auto;
-    vertical-align: top; 
 }
 
 /* CONTACTO */
